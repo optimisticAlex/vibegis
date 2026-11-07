@@ -1,0 +1,13 @@
+[build]
+target = "index.html"
+dist = "dist"
+
+[watch]
+ignore = [".cache", "assets/data", "dist", "target"]
+
+[serve]
+addresses = ["127.0.0.1"]
+port = 8787
+
+[[proxy]]
+backend = "http://127.0.0.1:8788/data/"

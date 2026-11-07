@@ -1,0 +1,74 @@
+{
+  "datasets": [
+    {
+      "key": "regensburg",
+      "name": "Regensburg",
+      "description": "OSM-Adressobjekte innerhalb der Stadtgrenze.",
+      "center": [
+        12.0969,
+        49.0134
+      ],
+      "zoom": 14,
+      "rows": 27305,
+      "bytes": 362846
+    },
+    {
+      "key": "bayern",
+      "name": "Bayern",
+      "description": "Gesamter Bayern-Ausschnitt. Größerer Speicherbedarf.",
+      "center": [
+        11.5,
+        48.9
+      ],
+      "zoom": 7,
+      "rows": 2672296,
+      "bytes": 36706756
+    },
+    {
+      "key": "deutschland",
+      "name": "Deutschland",
+      "description": "Gesamter Deutschland-Ausschnitt. Für Rechner mit ausreichend RAM.",
+      "center": [
+        10.45,
+        51.15
+      ],
+      "zoom": 6,
+      "rows": 20776482,
+      "bytes": 282911760
+    }
+  ],
+  "source": "OpenStreetMap / Geofabrik",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "source_header": {
+    "file": {
+      "name": "/home/opti/vibegis/.cache/germany.osm.pbf",
+      "format": "PBF",
+      "compression": "none",
+      "size": 4864295061
+    },
+    "header": {
+      "boxes": [
+        [
+          5.864417,
+          47.26543,
+          15.05078,
+          55.14777
+        ]
+      ],
+      "with_history": false,
+      "option": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_base_url": "https://download.geofabrik.de/europe/germany-updates",
+        "osmosis_replication_sequence_number": "4942",
+        "osmosis_replication_timestamp": "2026-10-18T20:25:06Z",
+        "pbf_dense_nodes": "true",
+        "pbf_optional_feature_0": "Sort.Type_then_ID",
+        "sorting": "Type_then_ID",
+        "timestamp": "2026-10-18T20:25:06Z"
+      }
+    }
+  },
+  "skipped_empty_geometry": 0,
+  "method": "addr:housenumber nodes and areas; area pointOnSurface; clip to Geofabrik polygons / Regensburg OSM relation 62411; preserve separate OSM objects"
+}

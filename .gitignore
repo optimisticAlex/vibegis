@@ -1,0 +1,7 @@
+/target/
+/dist/
+/.cache/
+/.venv/
+/assets/data/*.csv*
+/assets/data/*.poly
+__pycache__/
